@@ -8479,11 +8479,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fnuruyev\\source\\repos\\OxuAz\\OxuAz\\OxuAz.csproj",
+      "projectUniqueName": "C:\\Users\\fnuruyev\\Source\\Repos\\asp-net-core-oxu-az-FaxriFn2\\OxuAz\\OxuAz\\OxuAz.csproj",
       "projectName": "OxuAz",
-      "projectPath": "C:\\Users\\fnuruyev\\source\\repos\\OxuAz\\OxuAz\\OxuAz.csproj",
+      "projectPath": "C:\\Users\\fnuruyev\\Source\\Repos\\asp-net-core-oxu-az-FaxriFn2\\OxuAz\\OxuAz\\OxuAz.csproj",
       "packagesPath": "C:\\Users\\fnuruyev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fnuruyev\\source\\repos\\OxuAz\\OxuAz\\obj\\",
+      "outputPath": "C:\\Users\\fnuruyev\\Source\\Repos\\asp-net-core-oxu-az-FaxriFn2\\OxuAz\\OxuAz\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fnuruyev\\AppData\\Roaming\\NuGet\\NuGet.Config",

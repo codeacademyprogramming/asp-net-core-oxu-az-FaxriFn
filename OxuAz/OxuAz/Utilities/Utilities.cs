@@ -10,7 +10,7 @@ namespace OxuAz.Utilities
     {
         public static void RemoveImage(string root, string image)
         {
-            string path = Path.Combine(root, "img2", image);
+            string path = Path.Combine(root, "img", image);
 
             if (System.IO.File.Exists(path))
             {
