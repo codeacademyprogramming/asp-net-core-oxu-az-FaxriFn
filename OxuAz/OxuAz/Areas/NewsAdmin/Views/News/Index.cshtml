@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+
+}
+
+@model List<OxuAz.Models.News>
+    <div>
+
+        <table class="table table-dark w-100">
+            <thead>
+                <tr>
+                    <th scope="col">Sekil</th>
+
+                    <th scope="col">Basliq</th>
+                    <th scope="col">Metn</th>
+                    <th scope="col">Tarix</th>
+                    <th scope="col">Like</th>
+                    <th scope="col">DisLike</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <img style="width: 100px;" src="~/img/@item.Image" class="img-thumbnail" />
+                        </td>
+                        <td>
+                            @item.Title
+                        </td>
+                        <td>
+                            @item.Content
+                        </td>
+                        <td>
+                            @item.CreateAt
+                        </td>
+                        <td>
+                            @item.Like
+                        </td>
+                        <td>
+                            @item.DisLike
+                        </td>
+                        <td>
+                            <a class="btn btn-warning" asp-action="Edit" asp-route-Id="@item.Id">Edit</a>
+                            <a class="btn btn-info" asp-action="Details" asp-route-Id="@item.Id">Details</a>
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-Id="@item.Id">Delete</a>
+
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+
+
+        <a asp-area="NewsAdmin" asp-controller="News" asp-action="Create" class="btn btn-outline-primary  ">Yeni Xeber Yarat</a>
+    </div>
+
+
+
+
